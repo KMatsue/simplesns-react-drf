@@ -1,0 +1,63 @@
+{
+  // tailwind intelisence
+  "editor.quickSuggestions": {
+    "strings": "on"
+  }
+}
+// {
+//   "workbench.colorCustomizations": {},
+//   "editor.formatOnType": true,
+//   "workbench.editorAssociations": {},
+//   "workbench.sideBar.location": "left",
+//   "files.associations": {
+//     "*.html": "html"
+//   },
+//   "[dart]": {
+//     "editor.formatOnSave": true,
+//     "editor.formatOnType": true,
+//     "editor.rulers": [80],
+//     "editor.selectionHighlight": false,
+//     "editor.suggest.snippetsPreventQuickSuggestions": false,
+//     "editor.suggestSelection": "first",
+//     "editor.tabCompletion": "onlySnippets",
+//     "editor.wordBasedSuggestions": "off"
+//   },
+//   "workbench.editor.enablePreview": false,
+//   "[html]": {
+//     "editor.defaultFormatter": "vscode.html-language-features"
+//   },
+//   "[css]": {
+//     "editor.defaultFormatter": "esbenp.prettier-vscode"
+//   },
+//   "workbench.colorTheme": "Visual Studio Dark",
+//   "terminal.integrated.env.osx": {
+//     "FIG_NEW_SESSION": "1"
+//   },
+//   "editor.accessibilitySupport": "off",
+//   "workbench.preferredLightColorTheme": "Default Dark+",
+//   "eslint.workingDirectories": [{ "mode": "auto" }],
+//   "liveServer.settings.donotShowInfoMsg": true,
+//   "editor.formatOnSave": true,
+//   "workbench.editor.wrapTabs": true,
+//   "security.workspace.trust.untrustedFiles": "open",
+//   "editor.defaultFormatter": "esbenp.prettier-vscode",
+//   "[python]": {
+//     "editor.formatOnType": true
+//   },
+//   "emmet.triggerExpansionOnTab": true,
+//   "emmet.includeLanguages": {
+//     "javascript": "javascriptreact"
+//   },
+//   // .ts ファイル用の設定
+//   "[typescript]": {
+//     "typescript.format.enable": false, // 組み込みのフォーマッターは無効にする
+//     "editor.defaultFormatter": "esbenp.prettier-vscode", // Prettier を使う
+//     "editor.formatOnSave": true,
+//     "editor.formatOnType": true,
+//     "editor.formatOnPaste": true
+//   },
+//   "window.commandCenter": false,
+//   "editor.tabSize": 2,
+//   "hediet.vscode-drawio.resizeImages": null,
+//   "hediet.vscode-drawio.theme": "Kennedy"
+// }

@@ -1,0 +1,24 @@
+{
+  "name": "movie-upload-frontend",
+  "build": {
+    "dockerfile": "../Dockerfile"
+  },
+  "remoteUser": "node",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        // VScodeの設定を記載
+        "extensions.autoUpdate": false,
+        "extensions.autoCheckUpdates": false
+      },
+      "extensions": [
+        // コンテナ作成時にインストールする拡張機能を記載
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss"
+      ],
+      // "files.autoSave": "afterDelay" // ファイルのオートセーブ
+      "files.autoSave": "off" // ファイルのオートセーブOFF
+    }
+  }
+}

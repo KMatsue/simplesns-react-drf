@@ -1,0 +1,14 @@
+services:
+  drf:
+    container_name: backend-python
+    restart: always
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: python manage.py runserver --settings config.settings.development 0:8000
+    working_dir: /root
+    volumes:
+      - ../:/root
+    ports:
+      - "8002:8000"
+    tty: true

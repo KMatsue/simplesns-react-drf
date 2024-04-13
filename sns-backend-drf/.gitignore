@@ -1,0 +1,11 @@
+.DS_Store
+.idea
+.vscode
+venv
+__pycache__
+*.sqlite3
+memo.txt
+media
+.bash_history
+.cache
+local_settings.py
