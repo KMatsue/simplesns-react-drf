@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class DmConfig(AppConfig):
+class SnsConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'api.dm'
+    name = 'api.sns'
