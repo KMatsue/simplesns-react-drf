@@ -16,12 +16,15 @@ class FriendsFilter(serializers.PrimaryKeyRelatedField):
 
     def get_queryset(self):
         request = self.context['request']
+        # 送信先フレンドが自分のIDかつ承認済みのフレンドのみを取り出す
         friends = FriendRequest.objects.filter(Q(askTo=request.user) & Q(approved=True))
 
         list_friend = []
+        # 取り出した承認済みフレンドの中から相手のIDをリストに格納
         for friend in friends:
             list_friend.append(friend.askFrom.id)
 
+        # 取得したフレンドのIDを使ってUserオブジェクトをフィルタリングし、該当のユーザーオブジェクトのみを取得
         queryset = User.objects.filter(id__in=list_friend)
         return queryset
 
